@@ -19,7 +19,7 @@
 # rm -rf package/istoreos
 
 # 修改默认IP
-sed -i 's/192.168.1.1/192.168.1.100/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.10.11/g' package/base-files/files/bin/config_generate
 
 # poweroff
 git clone https://github.com/esirplayground/luci-app-poweroff package/luci-app-poweroff
