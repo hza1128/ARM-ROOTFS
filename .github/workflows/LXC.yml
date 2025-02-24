@@ -70,7 +70,7 @@ jobs:
       if: (!cancelled())
       uses: ophub/flippy-openwrt-actions@main
       env:
-        OPENWRT_ARMVIRT: https://github.com/Zane-E/ROOTFS/releases/download/ROOTFS/openwrt-armvirt-64-generic-rootfs.tar.gz
+        OPENWRT_ARMVIRT: https://github.com/hza1128/isttoreos-amlogic-s9xxx-openwrt/releases/download/OpenWrt_lede_save_2025.02/openwrt-armvirt-64-generic-rootfs.tar.gz
         PACKAGE_SOC: qemu
         WHOAMI: Demons
         #KERNEL_REPO_URL: https://github.com/breakings/OpenWrt/tree/main/opt
