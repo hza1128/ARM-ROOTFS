@@ -17,5 +17,5 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
-sed -i '$a src-git kwrt https://github.com/kiddin9/kwrt-packages' feeds.conf.default
+#sed -i '$a src-git kwrt https://github.com/kiddin9/kwrt-packages' feeds.conf.default
 
